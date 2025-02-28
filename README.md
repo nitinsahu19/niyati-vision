@@ -1,8 +1,29 @@
-# React + Vite
+# Niyati-Vision - MERN Stack Blog Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Niyati-Vision is a modern full-stack blog platform built with the MERN stack (MongoDB, Express, React, Node.js). It features an intuitive UI, infinite scroll, authentication, user roles, filtering, and more.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- 🔄 **Infinite Scroll** for a seamless browsing experience
+- 🔐 **User Authentication & Role Management** with Clerk
+- 📂 **Post Creation, Editing & Deletion**
+- 🔍 **Search & Filter Blogs by Category**
+- 📢 **Comment System**
+- 📷 **Image & Video Upload Support**
+- 🎨 **Fully Responsive UI with Tailwind CSS**
+- 🔄 **Optimized Data Fetching using React Query**
+- 🛠 **Backend API with Express & MongoDB**
+- 🏗 **Role-Based Authorization**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
+- **Frontend:** React 19, React Router, React Query, Tailwind CSS
+- **Backend:** Node.js, Express 5, MongoDB, Mongoose
+- **Authentication:** Clerk Auth
+- **State Management:** React Query
+- **Image Optimization:** Cloudinary
+- **Deployment:** Vercel (Frontend), Render (Backend)
+
+## 📌 Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/niyati-vision.git
+   cd niyati-vision
