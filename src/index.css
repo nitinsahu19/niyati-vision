@@ -8,3 +8,8 @@ body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
+
+.animatedButton {
+  animation: spin 10s linear infinite; /* 3s makes it slower */
+}
+
