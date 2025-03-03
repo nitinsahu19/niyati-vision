@@ -5,7 +5,7 @@ const Image = ({ src, className, w, h, alt }) => {
     <IKImage
       urlEndpoint={import.meta.env.VITE_IK_URL_ENDPOINT}
       // path="/logo.png"
-      src={src}
+      src={`https://ik.imagekit.io/szhvrfh5g/${src}`}
       className={className}
       loading="lazy"
       alt={alt}
