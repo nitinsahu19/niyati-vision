@@ -7,7 +7,11 @@ const FeaturedPosts = () => {
       {/* First post */}
       <div className="w-full lg:w-1/2 flex flex-col gap-4">
         {/* Image */}
-        <Image src="featured1.jpeg" className="rounded-3xl object-cover" />
+        <Image
+          src="featured1.jpeg"
+          className="rounded-3xl object-cover"
+          w="895"
+        />
 
         {/* Details */}
         <div className="flex gap-4 items-center">
@@ -25,24 +29,27 @@ const FeaturedPosts = () => {
         </Link>
       </div>
 
-      {/* Others post */}
+      {/* Others   */}
       <div className="w-full lg:w-1/2 flex flex-col gap-4">
         {/* Second post */}
-        <div className="flex lg:h-1/3 justify-between gap-4">
+        <div className="lg:h-1/3 flex justify-between gap-4">
           {/* Image */}
-          <Image
-            src="featured2.jpeg"
-            className="w-1/3 rounded-3xl object-cover lg:w-1/3"
-          />
+          <div className="w-1/3 aspect-video">
+            <Image
+              src="featured2.jpeg"
+              className="rounded-3xl object-cover w-full h-full"
+              w="298"
+            />
+          </div>
 
           {/* Details & Title */}
-          <div className="">
+          <div className="w-2/3">
             {" "}
             {/* Details */}
             <div className="flex items-center gap-4 text-sm lg:text-base mb-4">
               <h1 className="font-semibold">02</h1>
               <Link className="text-blue-800">Web Design</Link>
-              <span className="text-gray-500">2 days ago</span>
+              <span className="text-gray-500 text-sm">2 days ago</span>
             </div>
             {/* Title */}
             <Link
@@ -56,20 +63,24 @@ const FeaturedPosts = () => {
         </div>
 
         {/* Third post */}
-        <div className="flex lg:h-1/3 justify-between gap-4">
+        <div className="lg:h-1/3 flex justify-between gap-4">
           {/* Image */}
-          <Image
-            src="featured3.jpeg"
-            className="w-1/3 rounded-3xl object-cover lg:w-1/3"
-          />
+          <div className="w-1/3 aspect-video">
+            <Image
+              src="featured3.jpeg"
+              className="rounded-3xl object-cover w-full h-full"
+              w="298"
+            />
+          </div>
 
           {/* Details & Title */}
-          <div className="">
+          <div className="w-2/3">
+            {" "}
             {/* Details */}
             <div className="flex items-center gap-4 text-sm lg:text-base mb-4">
               <h1 className="font-semibold">02</h1>
               <Link className="text-blue-800">Web Design</Link>
-              <span className="text-gray-500">2 days ago</span>
+              <span className="text-gray-500 text-sm">2 days ago</span>
             </div>
             {/* Title */}
             <Link
@@ -83,20 +94,24 @@ const FeaturedPosts = () => {
         </div>
 
         {/* Fourth post */}
-        <div className="flex lg:h-1/3 justify-between gap-4">
+        <div className="lg:h-1/3 flex justify-between gap-4">
           {/* Image */}
-          <Image
-            src="featured4.jpeg"
-            className="w-1/3 rounded-3xl object-cover lg:w-1/3"
-          />
+          <div className="w-1/3 aspect-video">
+            <Image
+              src="featured4.jpeg"
+              className="rounded-3xl object-cover w-full h-full"
+              w="298"
+            />
+          </div>
 
           {/* Details & Title */}
-          <div className="">
+          <div className="w-2/3">
+            {" "}
             {/* Details */}
             <div className="flex items-center gap-4 text-sm lg:text-base mb-4">
               <h1 className="font-semibold">02</h1>
               <Link className="text-blue-800">Web Design</Link>
-              <span className="text-gray-500">2 days ago</span>
+              <span className="text-gray-500 text-sm">2 days ago</span>
             </div>
             {/* Title */}
             <Link
