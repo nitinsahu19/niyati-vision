@@ -1,6 +1,6 @@
 const Search = () => {
   return (
-    <div className="bg-gray-100 p-2 rounded-full flex items-center gap-2">
+    <div className="bg-gray-100 p-2 rounded-full flex items-center gap-2 w-max">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
@@ -15,7 +15,7 @@ const Search = () => {
       <input
         type="text"
         placeholder="search a post..."
-        className="bg-transparent"
+        className="bg-transparent outline-none"
       />
     </div>
   );
