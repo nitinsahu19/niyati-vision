@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import MainCategories from "../components/MainCategories";
-import FeaturedPosts from "../components/FeaturedPosts";
+import MainCategories from "../components/MainCategories.jsx";
+import FeaturedPosts from "../components/FeaturedPosts.jsx";
 import PostList from "../components/PostList.jsx";
 
 const Homepage = () => {
